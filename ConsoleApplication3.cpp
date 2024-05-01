@@ -1,15 +1,17 @@
-п»ї#include <conio.h>
+#include <conio.h>
 #include <stdio.h>
 
 int main()
 {
 	int kur1 = 0;
+	int kur2 = 0;
+	int kur3 = 0;
 	printf("Please, input number K1: ");
 	scanf_s("%d", &kur1);
-	int kur2 = 0;
+
 	printf("Please, input number K2: ");
 	scanf_s("%d", &kur2);
-	int kur3 = 0;
+	
 	printf("Please, input number K3: ");
 	scanf_s("%d", &kur3);
 
@@ -53,4 +55,4 @@ int main()
 	printf("Your result: %d\n", sum);
 }
 
-// РјРёРЅРёРјСѓРј a b c РёСЃРїРѕР»СЊР·СѓСЏ СѓСЃР»РѕРІРЅСѓСЋ РѕРїРµСЂР°С†РёСЋ ? :, РѕРіСЂР°РЅРёС‡РµРЅРёРµ - 1 РѕРїРµСЂР°С‚РѕСЂ
+// минимум a b c используя условную операцию ? :, ограничение - 1 оператор
