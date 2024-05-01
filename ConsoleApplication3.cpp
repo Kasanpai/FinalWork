@@ -4,7 +4,7 @@
 int main()
 {
 	int kur1 = 0;
-	int kur2 = 0;
+	int kur2 = 0; // надо так кароче
 	int kur3 = 0;
 	printf("Please, input number K1: ");
 	scanf_s("%d", &kur1);
